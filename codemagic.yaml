@@ -25,7 +25,7 @@ workflows:
           source: true
       cancel_previous_builds: false
     scripts:
-      - # Add your build scripts here
+      - flutter build appbundle
     artifacts:
       - build/**/outputs/bundle/**/*.aab
     publishing:
